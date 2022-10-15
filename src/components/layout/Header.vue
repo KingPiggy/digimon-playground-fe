@@ -1,16 +1,13 @@
 <template>
     <v-app-bar app light flat >
       
-      <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon> -->
-
-      <v-avatar class="ml-5" :tile="true">
-        <img :src="require('@/assets/logo.png')" alt="logo">
-      </v-avatar>
+      <v-img contain max-height="50" max-width="50" class="ml-5" :src="require('@/assets/logo.png')"></v-img>
 
       <v-app-bar-title>DIGIMON PLAYGROUND</v-app-bar-title>
 
       <router-link to="/"><v-btn text>Home</v-btn></router-link>
       <router-link to="/about"><v-btn text>About</v-btn></router-link>
+      <router-link to="/digimons"><v-btn text>digimons</v-btn></router-link>
 
       <v-spacer></v-spacer>
 

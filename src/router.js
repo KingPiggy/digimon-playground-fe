@@ -10,6 +10,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: () => import('@/views/About'),
+  },
+  {
+    path: '/digimons',
+    name: 'Digimons',
+    component: () => import('@/views/Digimons'),
   }
 ];
 
